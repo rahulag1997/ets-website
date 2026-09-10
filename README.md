@@ -13,15 +13,17 @@ Plain static HTML/CSS/JS. No build step, no dependencies.
 | `about.html` | `/about.html` |
 | `privacy.html` | `/privacy.html` |
 | `terms.html` | `/terms.html` |
+| `eas-privacy.html` / `eas-terms.html` / `eas-support.html` | per-app legal pages for EAS |
+| `eis-privacy.html` / `eis-terms.html` / `eis-support.html` | per-app legal pages for EIS |
 | `404.html` | served by GitHub Pages on any unknown path |
 
 Shared: `styles.css`, `main.js`, `favicon.svg` (the ETS "Half-resolved" mark).
 Also `robots.txt`, `sitemap.xml`, `CNAME` (custom domain), `.nojekyll` (skip
 Jekyll processing).
 
-Logos: `favicon.svg` is used in the header and the browser tab; `eas-mark.svg`
-and `ecs-mark.svg` sit next to each product on the home and products pages.
-All logo sources and variants live in `../brand/logo/`.
+Logos: `favicon.svg` is used in the header and the browser tab; `eas-mark.svg`,
+`eis-mark.svg` and `ecs-mark.svg` sit next to each product on the home and
+products pages. All logo sources and variants live in `../brand/logo/`.
 
 ## Edit it
 
