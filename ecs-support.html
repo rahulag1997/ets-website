@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ECS Support — Easy Tech Solutions</title>
+  <meta name="description" content="Support and downloads for the Easy Camera Solutions (ECS) app — how to install it, add cameras, use face identification, and answers to common questions.">
+  <link rel="canonical" href="https://etsproducts.in/ecs-support.html">
+  <meta name="robots" content="index, follow">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="ECS Support — Easy Tech Solutions">
+  <meta property="og:url" content="https://etsproducts.in/ecs-support.html">
+  <meta name="theme-color" content="#2563eb">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="main.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="favicon.svg" alt="" width="28" height="28">
+        <span>Easy Tech Solutions</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="privacy.html">Privacy</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <section class="section">
+      <div class="container prose">
+        <h1>ECS Support</h1>
+        <p class="updated">Last updated: 15 September 2026</p>
+
+        <p>Help for <strong>Easy Camera Solutions</strong> on macOS. A Windows
+          build exists but hasn't been verified on real Windows hardware yet
+          — check back before relying on it.</p>
+
+        <h2>Download</h2>
+        <ul>
+          <li><a href="https://github.com/rahulag1997/ets-website/releases/download/ecs-v0.1.0/ECS-lite.dmg">ECS Lite for macOS</a>
+            — free, live viewing only.</li>
+          <li><a href="https://github.com/rahulag1997/ets-website/releases/download/ecs-v0.1.0/ECS-pro.dmg">ECS Pro for macOS</a>
+            — adds person detection and face identification.</li>
+        </ul>
+        <p>Both are direct downloads, not distributed through the Mac App
+          Store, so macOS Gatekeeper will show an "unidentified developer"
+          warning the first time you open one. Right-click (or Control-click)
+          the app and choose <strong>Open</strong>, then confirm — you only
+          need to do this once. If macOS still blocks it, open
+          <strong>System Settings &rarr; Privacy &amp; Security</strong> and
+          look for an "Open Anyway" button near the bottom of the page.</p>
+
+        <h2>Contact us</h2>
+        <p>Email <a href="mailto:support@etsproducts.in">support@etsproducts.in</a>.
+          Please include:</p>
+        <ul>
+          <li>Lite or Pro edition;</li>
+          <li>your camera's brand/model if the problem is camera-specific;</li>
+          <li>what you were doing when the problem happened, and what you
+            expected instead.</li>
+        </ul>
+        <p>We aim to reply within a few business days.</p>
+
+        <h2>Common questions</h2>
+
+        <h3>How do I add a camera?</h3>
+        <p>Open <strong>Manage cameras</strong> and either enter its IP address
+          directly or use <strong>Scan network</strong> to find cameras on
+          your local network automatically. You'll need the camera's RTSP
+          username and password — check the camera's own app or its label.</p>
+
+        <h3>The app can't see my camera</h3>
+        <p>Confirm your computer and the camera are on the same local network,
+          that RTSP is enabled on the camera (some cameras call this "ONVIF"
+          or "RTSP stream" in their settings), and that the username/password
+          are correct. If macOS asks for a "Local Network" permission the
+          first time you add a camera, allow it — without it, ECS can't reach
+          any camera.</p>
+
+        <h3>How does face identification work? (Pro)</h3>
+        <p>Add a known person from a clear photo under <strong>Faces</strong>.
+          When ECS detects a face it doesn't recognise, it groups similar
+          unrecognised faces together so you can label the whole group with
+          one name in one step, instead of photo by photo.</p>
+
+        <h3>Does ECS need an internet connection?</h3>
+        <p>No. ECS only talks to cameras on your local network. The Pro
+          edition's detection models are bundled inside the app, so it never
+          needs to download anything to work.</p>
+
+        <h3>What happened to the "Full" edition?</h3>
+        <p>Same app, new name — what was called "Full" is now "Pro". Nothing
+          about what it does has changed.</p>
+
+        <h3>What data does ECS collect about me?</h3>
+        <p>None. See the <a href="ecs-privacy.html">ECS Privacy Policy</a>.</p>
+
+        <h2>Legal</h2>
+        <ul>
+          <li><a href="ecs-privacy.html">ECS Privacy Policy</a></li>
+          <li><a href="ecs-terms.html">ECS Terms of Use</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p class="muted">&copy; <span id="year">2026</span> Easy Tech Solutions</p>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="about.html">About</a>
+        <a href="privacy.html">Privacy</a>
+        <a href="terms.html">Terms</a>
+      </nav>
+    </div>
+  </footer>
+</body>
+</html>

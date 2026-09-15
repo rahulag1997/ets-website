@@ -2,12 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://etsproducts.in/</loc>
-    <lastmod>2026-09-03</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://etsproducts.in/products.html</loc>
-    <lastmod>2026-09-03</lastmod>
+    <lastmod>2026-09-15</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
@@ -53,6 +53,21 @@
   <url>
     <loc>https://etsproducts.in/eis-support.html</loc>
     <lastmod>2026-09-10</lastmod>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://etsproducts.in/ecs-privacy.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://etsproducts.in/ecs-terms.html</loc>
+    <lastmod>2026-09-15</lastmod>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://etsproducts.in/ecs-support.html</loc>
+    <lastmod>2026-09-15</lastmod>
     <priority>0.4</priority>
   </url>
 </urlset>
